@@ -22,7 +22,7 @@ public class UserController {
   }
 
   @PostMapping("/api/users")
-  public List<User> createUsers(@RequestBody User user) {
+  public List<User> registerUsers(@RequestBody User user) {
     userList.add(user);
     return userList;
   }
