@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTestb
 class OnecartApplicationTests { 
 
-	@Test
+	@Test 
 	void contextLoads() { 
 	}
 
